@@ -5,7 +5,6 @@ while seconds > 0 do
   puts "#{seconds} SECOND(S)!"
   seconds -= 1
   sleep(2)
-  if seconds == 0
-    puts "HAPPY NEW YEAR!"
 end
+return "HAPPY NEW YEAR!"
 end
